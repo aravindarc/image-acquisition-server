@@ -1,0 +1,26 @@
+<html>
+    <style type = "text/css" media = "all">
+        p {
+            color:000000;
+            text-align:center;
+            font-family:"American Typewriter", "Courier New", Courier, Monaco, mono;
+            font-size:25px;
+        }
+        #fields {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            height: 50%;
+            width: 50%;
+            margin: -15% 0 0 -25%;        
+        }
+    </style>
+	<body>
+		<form action = "https://192.168.43.195:5000/createDir" method = "POST">
+			<div id="fields">
+                <p>Enter your Name:<input type="text" name="name"/></p>
+    			<p><input type = "submit" name = "submit" value = "submit" /></p>
+            </div>
+   		</form>
+	</body>
+</html>
